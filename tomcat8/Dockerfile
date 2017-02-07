@@ -1,5 +1,9 @@
-FROM tomcat:latest
+#
+# Dockerfile by luhaoyuan: build a docker image for tomcat
+# usage: docker build -t="lusyoe/tomcat" .
+#
 
+FROM tomcat:latest
 MAINTAINER luhaoyuan <lusyoe@163.com>
 
 # 远程登录tomcat控制台与远程部署用户配置
