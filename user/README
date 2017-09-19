@@ -1,0 +1,3 @@
+# build
+
+docker build . -t uyun/kb-web:latest
